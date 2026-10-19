@@ -1,0 +1,13 @@
+ticket_id,category,minutes_to_owner,initial_owner_correct
+T-01,billing,8,true
+T-02,technical,12,true
+T-03,unknown,30,false
+T-04,billing,10,true
+T-05,technical,14,true
+T-06,unknown,24,true
+T-07,account,16,true
+T-08,unknown,28,false
+T-09,billing,12,true
+T-10,account,18,true
+T-11,unknown,26,false
+T-12,technical,18,true

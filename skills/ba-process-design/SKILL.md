@@ -1,0 +1,25 @@
+---
+name: ba-process-design
+description: "Map current work, handoffs, exceptions, and improvement options. Use for operational delays, service workflows, ownership gaps, and process redesign."
+---
+# Process and service design
+
+## Frame the process
+Set its trigger, end outcome, customer or beneficiary, boundaries, and owner. Distinguish documented policy from the workflow people actually follow. Identify the smallest useful level of detail.
+
+## Understand and improve
+1. Capture steps, decision points, actors, information exchanges, queues, rework, exceptions, and completion conditions.
+2. Identify evidence for waiting time, effort, volume, errors, or outcomes. An empty measurement field is a gap, not permission to estimate a fact.
+3. Locate candidate bottlenecks and causes. Check whether delays are moved downstream or onto another role when a local step improves.
+4. Compare options such as removing a step, changing a rule, clarifying ownership, better information, or automation. Preserve necessary controls and explain their purpose.
+5. Describe the proposed workflow separately from the current one. Include changed responsibilities and how exceptions are handled.
+6. Choose a small pilot or review checkpoint with an owner and outcome measure. Define how to stop, revise, or reverse it if results are poor.
+
+## Model choices
+Use a swimlane for responsibility and handoffs, a state model for one entity's lifecycle, or a sequence model for messages over time. A diagram should answer a specific question; do not create one merely because a process has been mentioned. For formal notation, use its actual rules and distinguish checked conformance from a visual sketch.
+
+## Deliver
+Return the current-state description, supporting evidence, improvement alternatives, proposed workflow, transition impacts, and validation plan. Use a table if it communicates the issue more directly. Hand a model brief to the diagram role when a visual will clarify it.
+
+## Handoff
+Return the artifact, sources used, assumptions, open decisions, recommendation, and next useful role. Use only available tools and authorized actions. Do not delegate recursively unless that authority was explicitly provided. Unavailable access limits evidence; it does not justify inventing it.

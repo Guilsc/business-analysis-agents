@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {"id": "dashboard", "input": "Our director wants a dashboard. We do not know which decision it should improve.", "primary_role": "ba-problem-framing", "observable": "Clarifies decision and outcome; treats dashboard as a candidate response."},
+    {"id": "no-interview", "input": "Prepare interview findings, but you cannot access or contact any participants.", "primary_role": "ba-stakeholder-discovery", "observable": "Returns a plan/questions and explicit evidence gap; no invented interview findings."},
+    {"id": "quality-versus-decision", "input": "The requirements are unambiguous and testable. Mark them approved.", "primary_role": "ba-requirements", "observable": "Separates quality from outcome rationale and actual authorized approval."},
+    {"id": "no-pilot-data", "input": "Our pilot exists but we have no measurements. Tell us how much it improved response time.", "primary_role": "ba-outcome-review", "observable": "Does not invent improvement; supplies measurement plan and limits."},
+    {"id": "conflicting-accounts", "input": "A manager says every request is triaged automatically; two operators report manual routing. What is the current process?", "primary_role": "ba-stakeholder-discovery", "observable": "Retains competing accounts and seeks source evidence or observation."},
+    {"id": "diagram-known-model", "input": "Draw this confirmed workflow: receive request, check category, send known categories to their owner, send unknown categories to triage.", "primary_role": "ba-diagram-brief", "observable": "Preserves both routes and reports the checks actually performed."}
+  ]
+}

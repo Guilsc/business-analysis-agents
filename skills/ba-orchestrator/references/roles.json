@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "path_base": "skills/ba-orchestrator",
+  "roles": [
+    {
+      "id": "ba-problem-framing",
+      "name": "Problem framing",
+      "skill_path": "../ba-problem-framing/SKILL.md",
+      "use_when": "Turn a feature request into a decision-ready problem brief. Use when the outcome, scope, baseline, or reason for change is unclear."
+    },
+    {
+      "id": "ba-stakeholder-discovery",
+      "name": "Stakeholder discovery",
+      "skill_path": "../ba-stakeholder-discovery/SKILL.md",
+      "use_when": "Plan focused stakeholder research and synthesize source-linked findings. Use for interviews, conflicting accounts, tacit workflows, and missing user evidence."
+    },
+    {
+      "id": "ba-requirements",
+      "name": "Requirements and acceptance",
+      "skill_path": "../ba-requirements/SKILL.md",
+      "use_when": "Write and review implementable requirements, rules, scenarios, and acceptance criteria. Use when an agreed need must become clear behavior and quality expectations."
+    },
+    {
+      "id": "ba-prioritization",
+      "name": "Options and prioritization",
+      "skill_path": "../ba-prioritization/SKILL.md",
+      "use_when": "Compare options or backlog items with explicit criteria, dependencies, uncertainty, and trade-offs. Use for scope choices, sequencing, and constrained investment decisions."
+    },
+    {
+      "id": "ba-process-design",
+      "name": "Process and service design",
+      "skill_path": "../ba-process-design/SKILL.md",
+      "use_when": "Map current work, handoffs, exceptions, and improvement options. Use for operational delays, service workflows, ownership gaps, and process redesign."
+    },
+    {
+      "id": "ba-change-impact",
+      "name": "Change impact and traceability",
+      "skill_path": "../ba-change-impact/SKILL.md",
+      "use_when": "Assess a proposed change across requirements, rules, interfaces, roles, tests, and rollout. Use for scope changes, dependency analysis, and decision tracking."
+    },
+    {
+      "id": "ba-outcome-review",
+      "name": "Outcome and value review",
+      "skill_path": "../ba-outcome-review/SKILL.md",
+      "use_when": "Assess whether a working solution or pilot improves intended outcomes. Use for measurement plans, underperformance, value gaps, and improvement recommendations."
+    },
+    {
+      "id": "ba-diagram-brief",
+      "name": "Analysis diagrams",
+      "skill_path": "../ba-diagram-brief/SKILL.md",
+      "use_when": "Create faithful analysis diagrams from explicit models using diagram-design when available. Use for process, state, sequence, data, dependency, and ownership visuals."
+    }
+  ]
+}

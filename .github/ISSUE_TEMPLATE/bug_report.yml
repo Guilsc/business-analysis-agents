@@ -1,0 +1,22 @@
+name: Skill or documentation problem
+description: Report an observed failure with a reproducible input.
+body:
+  - type: input
+    id: environment
+    attributes:
+      label: Host, model, and version
+    validations:
+      required: true
+  - type: textarea
+    id: input
+    attributes:
+      label: Skill and sanitized input
+      description: Use fictional or redistributable material. Remove private data.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and observed behavior
+    validations:
+      required: true
