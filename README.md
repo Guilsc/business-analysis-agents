@@ -11,7 +11,7 @@ Reusable AI skills for discovery, requirements, prioritization, process improvem
 [![Agent Skills](https://img.shields.io/badge/format-SKILL.md-bf4520)](skills)
 [![Stars](https://img.shields.io/github/stars/Guilsc/business-analysis-agents?style=flat)](https://github.com/Guilsc/business-analysis-agents/stargazers)
 
-[Quick start](#quick-start) · [Meet the agents](#meet-the-agents) · [See an example](examples/support-routing/README.md) · [Compatibility](docs/compatibility.md) · [Contribute](CONTRIBUTING.md)
+[Quick start](#quick-start) · [Download](https://github.com/Guilsc/business-analysis-agents/releases/latest) · [Meet the agents](#meet-the-agents) · [See an example](examples/support-routing/README.md) · [Compatibility](docs/compatibility.md) · [Contribute](CONTRIBUTING.md)
 
 </div>
 
@@ -30,6 +30,8 @@ Reusable AI skills for discovery, requirements, prioritization, process improvem
 | The pilot shipped, but did it help? | Outcome review | Evidence-based assessment and next action |
 
 ## Quick start
+
+Prefer a download? Get the ZIP from the [latest release](https://github.com/Guilsc/business-analysis-agents/releases/latest), extract it, and open this README.
 
 Clone the repository:
 
