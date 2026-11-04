@@ -1,9 +1,5 @@
-# Enable GitHub Actions checks
+# GitHub Actions checks
 
-The repository includes a ready-to-enable [workflow template](validate.yml). It runs the packaging validator and installer unit tests on Windows and Linux with read-only repository permissions.
+The active [validation workflow](../../.github/workflows/validate.yml) runs packaging validation and installer tests with read-only repository permissions on Ubuntu and Windows using Python 3.12. It triggers on pushes and pull requests. No remote run is claimed by this document.
 
-To activate it, use an account/token permitted to manage workflows and copy the file to `.github/workflows/validate.yml`. Commit and push that change. In GitHub's web editor, creating the same file under `.github/workflows/` is another option for an authorized repository owner.
-
-The initial publishing login did not include the `workflow` OAuth scope, so this release ships the template without activating it. Local validation and installer tests passed; no remote run or status badge is implied.
-
-After activation, the workflow appears in the Actions tab. You can then replace the README's local-check badge with the actual workflow-status badge.
+[validate.yml](validate.yml) remains a portable copy for downstream users. Keep it aligned with the active workflow when changing checks. See [the validation record](../validation.md) for historical local evidence and limitations.

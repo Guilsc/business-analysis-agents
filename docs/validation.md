@@ -14,6 +14,6 @@ Version 0.1.0 was prepared on 2026-10-19 with these local checks:
 | Narrow viewport | The role map scrolls inside its wrapper at 390px without horizontal page overflow |
 | Public content review | No book PDF, extraction, private conversion pack, personal machine paths, or credentials were included |
 
-The ready-to-enable workflow at `docs/ci/validate.yml` runs repository validation and installer unit tests on Windows and Linux when copied to `.github/workflows/validate.yml`. It is supplied as a template because the publishing login lacks workflow-upload scope. No remote CI run is claimed. See [activation instructions](ci/README.md).
+The initial release supplied only a template at `docs/ci/validate.yml`. The production-readiness branch now includes `.github/workflows/validate.yml`, running repository validation and installer unit tests on Windows and Linux. No remote CI run is claimed. See [workflow details](ci/README.md).
 
 Behavioral cases in `evals/` have not been run across all hosts or models. No accuracy, productivity, or token-savings benchmark is claimed. Diagram checking covers these supplied artifacts, not every future model generated from the skills.
