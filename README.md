@@ -19,9 +19,9 @@ Reusable AI skills for discovery, requirements, prioritization, process improvem
 
 ## Architecture overview
 
-![Repository architecture](docs/assets/architecture.svg)
+![Business question routed to relevant analysis skills](docs/assets/architecture.svg)
 
-[Editable HTML/SVG source](docs/architecture.html) · [Diagram style](docs/assets/architecture.style.json)
+Choose the relevant branch; these skills are not a mandatory end-to-end pipeline. The SVG is the editable source.
 
 
 ## Start with the work in front of you

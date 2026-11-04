@@ -1,37 +1,53 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="730" viewBox="0 0 1200 730" role="img" aria-labelledby="business-analysis-agents-title business-analysis-agents-desc" id="architecture-root"><title id="business-analysis-agents-title">Business Analysis Agents | From questions to evidence</title><desc id="business-analysis-agents-desc">ANALYSIS WORKFLOW. PORTABLE EXECUTION BOUNDARY. Business analysis task: Problem, stakeholders, and outcome. Selected analysis skill: A bounded specialist method. Structured artifact: Requirements, process, or decision. Portable skill package: Reusable instructions and resources. Existing AI host: Tools and models belong to the host. Human judgment: Review and acceptance stay explicit. Skills guide analysis; they do not create independent services or bypass host permissions.</desc>
-<rect width="1200" height="730" fill="#f5f5f5"/>
-<defs>
-      <style>#architecture-root { color: #2d3142; font-family: system-ui,sans-serif; }</style><marker id="architecture-business-analysis-agents-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4f5d75"/></marker></defs>
-<text x="60" y="66" fill="#bf4520" font-family="ui-monospace,monospace" font-size="13" letter-spacing="2">ARCHITECTURE / MAINTAINABLE SOURCE</text>
-<text x="60" y="110" fill="#2d3142" font-family="system-ui,sans-serif" font-size="27" font-weight="600">Business Analysis Agents | From questions to evidence</text>
-<text x="60" y="177" fill="#4f5d75" font-family="ui-monospace,monospace" font-size="13" letter-spacing="1.5">ANALYSIS WORKFLOW</text>
-<path d="M 360 264 H 450" fill="none" stroke="#4f5d75" stroke-width="1.5" marker-end="url(#architecture-business-analysis-agents-arrow)"/>
-<path d="M 750 264 H 840" fill="none" stroke="#4f5d75" stroke-width="1.5" marker-end="url(#architecture-business-analysis-agents-arrow)"/>
-<rect x="60" y="210" width="300" height="112" rx="8" fill="#ffffff" stroke="#4f5d75" stroke-width="1.2"/>
-<text x="80" y="243" fill="#2d3142" font-family="system-ui,sans-serif" font-size="17" font-weight="600">Business analysis task</text>
-<text x="80" y="270" fill="#4f5d75" font-family="system-ui,sans-serif" font-size="13.5">Problem, stakeholders, and outcome</text>
-<rect x="450" y="210" width="300" height="112" rx="8" fill="#bf4520" stroke="#bf4520" stroke-width="1.2"/>
-<text x="470" y="243" fill="#ffffff" font-family="system-ui,sans-serif" font-size="17" font-weight="600">Selected analysis skill</text>
-<text x="470" y="270" fill="#ffffff" font-family="system-ui,sans-serif" font-size="13.5">A bounded specialist method</text>
-<rect x="840" y="210" width="300" height="112" rx="8" fill="#ffffff" stroke="#4f5d75" stroke-width="1.2"/>
-<text x="860" y="243" fill="#2d3142" font-family="system-ui,sans-serif" font-size="17" font-weight="600">Structured artifact</text>
-<text x="860" y="270" fill="#4f5d75" font-family="system-ui,sans-serif" font-size="13.5">Requirements, process, or decision</text>
-<text x="60" y="407" fill="#4f5d75" font-family="ui-monospace,monospace" font-size="13" letter-spacing="1.5">PORTABLE EXECUTION BOUNDARY</text>
-<path d="M 360 494 H 450" fill="none" stroke="#4f5d75" stroke-width="1.5" marker-end="url(#architecture-business-analysis-agents-arrow)"/>
-<path d="M 750 494 H 840" fill="none" stroke="#4f5d75" stroke-width="1.5" marker-end="url(#architecture-business-analysis-agents-arrow)"/>
-<rect x="60" y="440" width="300" height="112" rx="8" fill="#ffffff" stroke="#4f5d75" stroke-width="1.2"/>
-<text x="80" y="473" fill="#2d3142" font-family="system-ui,sans-serif" font-size="17" font-weight="600">Portable skill package</text>
-<text x="80" y="500" fill="#4f5d75" font-family="system-ui,sans-serif" font-size="13.5">Reusable instructions and</text>
-<text x="80" y="520" fill="#4f5d75" font-family="system-ui,sans-serif" font-size="13.5">resources</text>
-<rect x="450" y="440" width="300" height="112" rx="8" fill="#bf4520" stroke="#bf4520" stroke-width="1.2"/>
-<text x="470" y="473" fill="#ffffff" font-family="system-ui,sans-serif" font-size="17" font-weight="600">Existing AI host</text>
-<text x="470" y="500" fill="#ffffff" font-family="system-ui,sans-serif" font-size="13.5">Tools and models belong to the</text>
-<text x="470" y="520" fill="#ffffff" font-family="system-ui,sans-serif" font-size="13.5">host</text>
-<rect x="840" y="440" width="300" height="112" rx="8" fill="#ffffff" stroke="#4f5d75" stroke-width="1.2"/>
-<text x="860" y="473" fill="#2d3142" font-family="system-ui,sans-serif" font-size="17" font-weight="600">Human judgment</text>
-<text x="860" y="500" fill="#4f5d75" font-family="system-ui,sans-serif" font-size="13.5">Review and acceptance stay</text>
-<text x="860" y="520" fill="#4f5d75" font-family="system-ui,sans-serif" font-size="13.5">explicit</text>
-<path d="M 60 609 H 1140" stroke="#4f5d75" stroke-width="1" opacity="0.4"/>
-<text x="60" y="643" fill="#4f5d75" font-family="system-ui,sans-serif" font-size="14">Skills guide analysis; they do not create independent services or bypass host permissions.</text>
-<text x="60" y="705" fill="#4f5d75" font-family="ui-monospace,monospace" font-size="11">business-analysis-agents / source-aware view / no runtime certification</text></svg>
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620" role="img" aria-labelledby="ba-skills-title ba-skills-desc">
+  <title id="ba-skills-title">Start with the question, not every skill</title>
+  <desc id="ba-skills-desc">A business question is routed to the relevant skills. Discovery includes problem framing and stakeholder discovery. Decisions include requirements and prioritization. Change and outcomes include process design, impact, and outcome review. Evidence and human acceptance determine whether the result is useful; this is not a mandatory linear workflow.</desc>
+  <defs>
+    <marker id="ba-skills-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8Z" fill="#bcc6d3"/>
+    </marker>
+    <marker id="ba-skills-accent" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8Z" fill="#f08a59"/>
+    </marker>
+  </defs>
+  <rect width="960" height="620" rx="12" fill="#101722"/>
+  <g font-family="Arial,Helvetica,sans-serif">
+    <path d="M480 238 V294" fill="none" stroke="#bcc6d3" stroke-width="1.8" marker-end="url(#ba-skills-arrow)"/>
+    <path d="M480 380 V416 H172 M480 416 H788" fill="none" stroke="#bcc6d3" stroke-width="1.8"/>
+    <path d="M172 416 V454" fill="none" stroke="#bcc6d3" stroke-width="1.8" marker-end="url(#ba-skills-arrow)"/>
+    <path d="M480 416 V454" fill="none" stroke="#bcc6d3" stroke-width="1.8" marker-end="url(#ba-skills-arrow)"/>
+    <path d="M788 416 V454" fill="none" stroke="#bcc6d3" stroke-width="1.8" marker-end="url(#ba-skills-arrow)"/>
+    <text x="36" y="40" font-size="12" fill="#bcc6d3" text-anchor="start" font-weight="400" letter-spacing="1.8">BUSINESS ANALYSIS AGENTS</text>
+    <text x="36" y="80" font-size="29" fill="#f3f1e9" text-anchor="start" font-weight="600" letter-spacing="0">Start with the question, not every skill</text>
+    <text x="36" y="110" font-size="17" fill="#bcc6d3" text-anchor="start" font-weight="400" letter-spacing="0">The orchestrator selects a bounded analysis path in the existing AI host</text>
+    <g data-node-id="question">
+      <rect data-role="bounds" x="330" y="146" width="300" height="92" rx="9" fill="#1a2636" stroke="#f08a59" stroke-width="2"/>
+      <text x="480.0" y="177" font-size="20" fill="#f3f1e9" text-anchor="middle" font-weight="600" letter-spacing="0">Business question</text>
+      <text x="480.0" y="204" font-size="16" fill="#bcc6d3" text-anchor="middle" font-weight="400" letter-spacing="0">Outcome + constraints</text>
+    </g>
+    <g data-node-id="router">
+      <rect data-role="bounds" x="330" y="294" width="300" height="86" rx="9" fill="#1a2636" stroke="#bcc6d3" stroke-width="1"/>
+      <text x="480.0" y="325" font-size="20" fill="#f3f1e9" text-anchor="middle" font-weight="600" letter-spacing="0">BA orchestrator</text>
+      <text x="480.0" y="352" font-size="16" fill="#bcc6d3" text-anchor="middle" font-weight="400" letter-spacing="0">Select only relevant skills</text>
+    </g>
+    <g data-node-id="group-0">
+      <rect data-role="bounds" x="36" y="454" width="272" height="112" rx="9" fill="#1a2636" stroke="#bcc6d3" stroke-width="1"/>
+      <text x="172.0" y="485" font-size="20" fill="#f3f1e9" text-anchor="middle" font-weight="600" letter-spacing="0">Discover</text>
+      <text x="172.0" y="512" font-size="16" fill="#bcc6d3" text-anchor="middle" font-weight="400" letter-spacing="0">Problem framing</text>
+      <text x="172.0" y="535" font-size="16" fill="#bcc6d3" text-anchor="middle" font-weight="400" letter-spacing="0">Stakeholder evidence</text>
+    </g>
+    <g data-node-id="group-1">
+      <rect data-role="bounds" x="344" y="454" width="272" height="112" rx="9" fill="#1a2636" stroke="#bcc6d3" stroke-width="1"/>
+      <text x="480.0" y="485" font-size="20" fill="#f3f1e9" text-anchor="middle" font-weight="600" letter-spacing="0">Decide</text>
+      <text x="480.0" y="512" font-size="16" fill="#bcc6d3" text-anchor="middle" font-weight="400" letter-spacing="0">Requirements</text>
+      <text x="480.0" y="535" font-size="16" fill="#bcc6d3" text-anchor="middle" font-weight="400" letter-spacing="0">Prioritization</text>
+    </g>
+    <g data-node-id="group-2">
+      <rect data-role="bounds" x="652" y="454" width="272" height="112" rx="9" fill="#1a2636" stroke="#bcc6d3" stroke-width="1"/>
+      <text x="788.0" y="485" font-size="20" fill="#f3f1e9" text-anchor="middle" font-weight="600" letter-spacing="0">Change + learn</text>
+      <text x="788.0" y="512" font-size="16" fill="#bcc6d3" text-anchor="middle" font-weight="400" letter-spacing="0">Process + impact</text>
+      <text x="788.0" y="535" font-size="16" fill="#bcc6d3" text-anchor="middle" font-weight="400" letter-spacing="0">Outcome review</text>
+    </g>
+    <text x="36" y="594" font-size="15" fill="#bcc6d3" text-anchor="start" font-weight="400" letter-spacing="0">Each path produces a reviewable artifact. Diagram briefs support any path; tools stay host-owned.</text>
+  </g>
+</svg>
