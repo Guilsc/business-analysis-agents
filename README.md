@@ -6,16 +6,23 @@
 
 Reusable AI skills for discovery, requirements, prioritization, process improvement, and outcome review.
 
-[![Local checks](https://img.shields.io/badge/local_checks-passed-24473b)](docs/validation.md)
+[Validation guide](docs/validation.md)
 [![MIT License](https://img.shields.io/badge/license-MIT-24473b)](LICENSE)
 [![Agent Skills](https://img.shields.io/badge/format-SKILL.md-bf4520)](skills)
 [![Stars](https://img.shields.io/github/stars/Guilsc/business-analysis-agents?style=flat)](https://github.com/Guilsc/business-analysis-agents/stargazers)
 
-[Quick start](#quick-start) · [Download](https://github.com/Guilsc/business-analysis-agents/releases/latest) · [Meet the agents](#meet-the-agents) · [See an example](examples/support-routing/README.md) · [Compatibility](docs/compatibility.md) · [Contribute](CONTRIBUTING.md)
+[Quick start](#quick-start) · [Source ZIP](https://github.com/Guilsc/business-analysis-agents/archive/HEAD.zip) · [Meet the agents](#meet-the-agents) · [See an example](examples/support-routing/README.md) · [Compatibility](docs/compatibility.md) · [Contribute](CONTRIBUTING.md)
 
 </div>
 
 ![One orchestrator selects the analysis role needed for the next decision](docs/assets/agent-map.png)
+
+## Architecture overview
+
+![Repository architecture](docs/assets/architecture.svg)
+
+[Editable HTML/SVG source](docs/architecture.html) · [Diagram style](docs/assets/architecture.style.json)
+
 
 ## Start with the work in front of you
 
@@ -31,7 +38,7 @@ Reusable AI skills for discovery, requirements, prioritization, process improvem
 
 ## Quick start
 
-Prefer a download? Get the ZIP from the [latest release](https://github.com/Guilsc/business-analysis-agents/releases/latest), extract it, and open this README.
+Prefer a download? Get the [current source ZIP](https://github.com/Guilsc/business-analysis-agents/archive/HEAD.zip), extract it, and open this README. This tracks the default branch; use a reviewed commit or tag for a reproducible installation.
 
 Clone the repository:
 
@@ -76,6 +83,10 @@ The installer copies all nine skills and refuses to overwrite an existing skill.
 | [ba-diagram-brief](skills/ba-diagram-brief/SKILL.md) | Make models understandable | Diagram source and viewable artifact |
 
 These are reusable roles. Your host can apply them in one conversation or delegate to separate agents when it supports that capability and you authorize it. Installing a skill does not create a running agent.
+
+## Architecture and boundaries
+
+This is a content toolkit, not a hosted service or autonomous runtime. The host reads the skill instructions; the orchestrator selects focused roles and integrates their artifacts. See the [architecture guide](docs/architecture.md) for the source, installation, and runtime boundaries.
 
 ## How orchestration works
 
@@ -133,7 +144,7 @@ Tool access, rendering, context limits, and agent delegation vary. See [compatib
 - Evidence, assumptions, recommendations, and authorized decisions stay distinguishable.
 - Examples are fictional and labelled. No invented interviews or measured results.
 - Roles are focused, with explicit deliverables and review questions.
-- The validator checks skill metadata, references, registry targets, portable copies, and repository hygiene. An [opt-in CI template](docs/ci/README.md) runs these checks on Windows and Linux.
+- The validator checks skill metadata, references, registry targets, portable copies, and repository hygiene. The [validation workflow](.github/workflows/validate.yml) runs these checks on Windows and Linux on pushes and pull requests; its presence is not evidence of a passing remote run.
 - [Behavioral evaluation cases](evals/README.md) describe expected observable behavior. They are prompts for testing a runtime, not fabricated benchmark scores.
 
 See the [release validation record](docs/validation.md) for checks actually performed and their limits.
